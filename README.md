@@ -28,3 +28,12 @@ pnpm install --frozen-lockfile
 [Usage guide](docs/getting-started.md)
 
 [Implementation and public interfaces](src) · [Contributing](CONTRIBUTING.md) · [Security reporting](SECURITY.md) · [License](LICENSE) · [Attribution notices](NOTICE)
+
+## Verification status
+
+[Existing CI](https://github.com/hathq/ihat-store-local/actions/workflows/oss-policy.yml) checks repository policy; it does not establish a successful dependency install or product build.
+
+The checked-in manifest and lockfile reference different digest-addressed TGZ paths for `@hathq/ihat-store-core` and `@hathq/ihat-store-source`.
+Confirm the exact approved artifacts and reconcile those references in a separately reviewed
+dependency change before claiming a reproducible frozen install. Neither artifact availability
+nor registry publication is established here. No successful clean-clone build is claimed.
