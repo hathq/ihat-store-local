@@ -1,0 +1,32 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@hathq/ihat-store-core':
+        specifier: file:../../../../../../../.artifacts/npm/ade606eb20708eebd7ed17d68f8d480bd8170032fce023273dcbeec160b4fc85/hathq-ihat-store-core-0.10.0.tgz
+        version: file:../../../../../../../.artifacts/npm/ade606eb20708eebd7ed17d68f8d480bd8170032fce023273dcbeec160b4fc85/hathq-ihat-store-core-0.10.0.tgz
+      '@hathq/ihat-store-source':
+        specifier: file:../../../../../../../.artifacts/npm/63a9f1bc1554628f9acbcf54b965e2cd4e28c7dcecfd3d95543e7e95af4312fa/hathq-ihat-store-source-0.10.0.tgz
+        version: file:../../../../../../../.artifacts/npm/63a9f1bc1554628f9acbcf54b965e2cd4e28c7dcecfd3d95543e7e95af4312fa/hathq-ihat-store-source-0.10.0.tgz
+
+packages:
+
+  '@hathq/ihat-store-core@file:../../../../../../../.artifacts/npm/ade606eb20708eebd7ed17d68f8d480bd8170032fce023273dcbeec160b4fc85/hathq-ihat-store-core-0.10.0.tgz':
+    resolution: {integrity: sha512-nSdWlmzxL6bK90DHINHA/l8CGiovfUX1EDmOI+2E6RgHV/9xKrhZaTTKK+1MCOgJVf11hNAAgzFyNXzoSPcwXw==, tarball: file:../../../../../../../.artifacts/npm/ade606eb20708eebd7ed17d68f8d480bd8170032fce023273dcbeec160b4fc85/hathq-ihat-store-core-0.10.0.tgz}
+    version: 0.10.0
+
+  '@hathq/ihat-store-source@file:../../../../../../../.artifacts/npm/63a9f1bc1554628f9acbcf54b965e2cd4e28c7dcecfd3d95543e7e95af4312fa/hathq-ihat-store-source-0.10.0.tgz':
+    resolution: {integrity: sha512-cc/3XklQTR7n7NFwOyWBA3WmJVo10T18mbT2vhA5twSY2JoYzSSxQhwzA4ZoAEtud235queusNeZp87OKOGSRA==, tarball: file:../../../../../../../.artifacts/npm/63a9f1bc1554628f9acbcf54b965e2cd4e28c7dcecfd3d95543e7e95af4312fa/hathq-ihat-store-source-0.10.0.tgz}
+    version: 0.10.0
+
+snapshots:
+
+  '@hathq/ihat-store-core@file:../../../../../../../.artifacts/npm/ade606eb20708eebd7ed17d68f8d480bd8170032fce023273dcbeec160b4fc85/hathq-ihat-store-core-0.10.0.tgz': {}
+
+  '@hathq/ihat-store-source@file:../../../../../../../.artifacts/npm/63a9f1bc1554628f9acbcf54b965e2cd4e28c7dcecfd3d95543e7e95af4312fa/hathq-ihat-store-source-0.10.0.tgz': {}

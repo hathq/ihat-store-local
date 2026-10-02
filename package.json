@@ -1,0 +1,20 @@
+{
+  "name": "@hathq/ihat-store-local",
+  "version": "0.10.0",
+  "type": "module",
+  "license": "Apache-2.0",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    "LICENSE-PREVIOUS"
+  ],
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "dependencies": {
+    "@hathq/ihat-store-core": "file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz",
+    "@hathq/ihat-store-source": "file:../../../../../../../.artifacts/npm/fe2fa895e5830ebd417c57567f5b4b36b39da5950863a040564d4a57711757a8/hathq-ihat-store-source-0.10.0.tgz"
+  }
+}
